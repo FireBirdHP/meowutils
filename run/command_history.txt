@@ -1,0 +1,27 @@
+/spawn
+/gamemode creative
+/hub
+/gamemode survival
+/hub
+/gamemode creative
+/hub
+/time set day
+/hub
+/spawn
+/hub
+/spawn
+/time set day
+/weather clear
+/tp @e[type=minecraft:item] 39.34 72.00 -57.00
+/tp @e[type=minecraft:item] 39.34 42.00 -57.00
+/fly
+/time set day
+/tp @e[type=minecraft:item] -4.13 34.00 -144.81
+/tp @e[type=minecraft:item] -4.13 64.00 -144.81
+/tp @e[type=minecraft:item] -4.13 54.00 -144.81
+/tp @e[type=minecraft:item] -11.30 64.00 -147.03
+/tp @e[type=minecraft:item] -2.69 64.00 -141.53
+/tp @e[type=minecraft:item] -2.69 54.00 -141.53
+/l 123qwe321
+/reg 123qwe321
+/reg 123qwe321 123qwe321

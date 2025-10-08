@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "meow-utils",
+  "version": "2.1",
+  "name": "MeowUtils",
+  "description": "MeowUtils",
+  "authors": [
+    "pls_meow"
+  ],
+  "contact": {
+    "sources": "https://mioclient.me/"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "meow.utils.Utils"
+    ]
+  },
+  "mixins": [
+    "utils.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["1.21.8", "1.21.7"],
+    "meteor-client": "*"
+  }
+}

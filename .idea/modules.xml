@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/meowutils.iml" filepath="$PROJECT_DIR$/.idea/meowutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meowutils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/meowutils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meowutils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/meowutils.test.iml" />
+    </modules>
+  </component>
+</project>

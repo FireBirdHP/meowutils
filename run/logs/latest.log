@@ -1,0 +1,331 @@
+[22:56:25] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
+[22:56:27] [main/INFO] (FabricLoader) Loading 8 mods:
+	- fabric-api-base 0.4.64+9ec45cd8f3
+	- fabric-resource-loader-v0 3.1.11+946bf4c3f3
+	- fabricloader 0.16.14
+	- java 21
+	- meow-utils 2.1
+	- meteor-client 1.21.8-16
+	- minecraft 1.21.8
+	- mixinextras 0.4.1
+[22:56:27] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[22:56:27] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:56:27] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[22:56:29] [main/WARN] (FabricLoader/Mixin) Error loading class: baritone/command/defaults/ComeCommand (java.lang.ClassNotFoundException: baritone/command/defaults/ComeCommand)
+[22:56:29] [main/WARN] (FabricLoader/Mixin) @Mixin target baritone.command.defaults.ComeCommand was not found meteor-client-baritone.mixins.json:ComeCommandMixin from mod meteor-client
+[22:56:31] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:56:36] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 3116 milliseconds
+[22:56:57] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:56:57] [Render thread/INFO] (Minecraft) Setting user: Player257
+[22:56:59] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[22:57:01] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[22:57:08] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client
+[22:57:09] [Render thread/INFO] (Meteor Client) Force loading mixins
+[22:57:09] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer
+[22:57:09] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+[22:57:09] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EndCrystalEntityRenderer
+[22:57:09] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.particle.FireworksSparkParticle$FireworkParticle
+[22:57:10] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.SynchronizeRegistriesTask
+[22:57:10] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ElytraFeatureRenderer
+[22:57:11] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.EnchantingTableBlockEntityRenderer
+[22:57:11] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.resource.ClientDataPackManager
+[22:57:11] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.model.EndCrystalEntityModel
+[22:57:11] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.DisconnectedScreen
+[22:57:12] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager$ClientChunkMap
+[22:57:12] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SectionedEntityCache
+[22:57:12] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BannerBlockEntityRenderer
+[22:57:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine
+[22:57:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractFurnaceScreen
+[22:57:13] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[22:57:13] [Worker-Main-3/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[22:57:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+[22:57:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.model.BakedQuad
+[22:57:13] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayNetworkHandler
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookEditScreen
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.CapeFeatureRenderer
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.network.ServerConfigurationNetworkHandler
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.world.CreateWorldScreen
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.function.FunctionLoader
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.screen.HorseScreenHandler
+[22:57:14] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.PlayerEntityRenderer
+[22:57:14] [Worker-Main-2/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.ArmorFeatureRenderer
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.ClientConnection
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.recipe.ServerRecipeManager
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.pack.ResourcePackOrganizer
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.EntityRenderer
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.feature.HeadFeatureRenderer
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.chunk.light.ChunkSkyLightProvider
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.color.world.BiomeColors
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.BlockCollisionSpliterator
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+[22:57:15] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.hud.ChatHudLine$Visible
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.network.packet.c2s.config.SelectKnownPacksC2SPacket
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ChatInputSuggestor
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.EntityTrackingSection
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.world.ClientChunkManager
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.ItemEntityRenderer
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.state.EntityRenderState
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.RenderLayers
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.entity.SimpleEntityLookup
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen$CreativeSlot
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BookScreen
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.test.TestServer
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.world.RaycastContext
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.command.DatapackCommand
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.util.DefaultSkinHelper
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.dedicated.ServerPropertiesHandler
+[22:57:16] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.DrawContext
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.chunk.ChunkOcclusionDataBuilder
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LivingEntityRenderer
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.network.ClientPlayerInteractionManager
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.input.KeyboardInput
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.font.TextRenderer$Drawer
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BeaconScreen
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.multiplayer.ConnectScreen
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.screen.ingame.BrewingStandScreen
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.server.ServerAdvancementLoader
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.gui.tooltip.TooltipComponent
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.block.entity.MobSpawnerBlockEntityRenderer
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.WorldRenderer$BrightnessGetter
+[22:57:17] [Render thread/INFO] (FabricLoader/Mixin/audit) Force-loading class net.minecraft.client.render.entity.LightningEntityRenderer
+[22:57:17] [Render thread/INFO] (Meteor Client) Initializing Meteor Client
+[22:57:19] [Render thread/INFO] (Reflections) Reflections took 1806 ms to scan 1 urls, producing 24 keys and 960 values
+[22:57:19] [Render thread/INFO] (Reflections) Reflections took 46 ms to scan 1 urls, producing 1 keys and 14 values
+[22:57:21] [Render thread/INFO] (Meteor Client) Found 67 font families.
+[22:57:22] [Render thread/INFO] (Meteor Client) Path Manager: none
+[22:57:23] [Render thread/INFO] (Utils) MeowUtils starting | UwU
+[22:57:23] [Render thread/INFO] (Meteor Client) Loading
+[22:57:23] [Render thread/INFO] (Meteor Client) Loaded in 154 milliseconds
+[22:57:29] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on DF22N1 (Intel(R) Display Audio)
+[22:57:29] [Render thread/INFO] (Minecraft) Sound engine started
+[22:57:29] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22:57:34] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:57:35] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:57:35] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:57:35] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:57:37] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:57:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:57:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:57:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:57:37] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22:57:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:57:38] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:57:38] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22:58:04] [Meteor-Executor-1/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:58:07] [Render thread/INFO] (Minecraft) Connecting to mc.reallyworld.ru, 25565
+[22:58:13] [Render thread/INFO] (Minecraft) [System] [CHAT] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+[22:58:13] [Render thread/INFO] (Minecraft) [System] [CHAT] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+[22:58:13] [Render thread/INFO] (Meteor Client) Saving
+[22:58:13] [Render thread/INFO] (Meteor Client) Saved in 95 milliseconds.
+[22:58:15] [Render thread/INFO] (Minecraft) [System] [CHAT] Intensive server activity has been HALTED.
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e87899c9-507d-3d93-9bc7-9edfc7732123 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 9d3fec5b-525e-3be4-9753-c63a2159f16f ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 73c930e3-8bbd-3d59-9ad2-13018305779a ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 8570a8cd-82a5-3536-8fdb-10a89bd42fcc ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player f50d4da9-a39d-39b6-924d-bf45dba442c9 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6f4d9c4c-72f2-32bf-9f3b-bcfe4800eb22 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e0150884-609e-3f7b-a7ac-2e05426bce22 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 2c7dc8e2-2ae3-3594-b332-bdb4766f7f16 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 47e1e396-8934-32a2-90c8-370211993709 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player d119690a-649a-3bb9-a099-6eca6dfbe325 ([UPDATE_DISPLAY_NAME])
+[22:58:15] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[22:58:15] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[22:58:16] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[22:58:16] [Render thread/INFO] (Minecraft) [System] [CHAT] Добро пожаловать на сервер ReallyWorld!\n\n  » Наш сайт reallyworld.me\n\n  » Дискорд сервер discord.gg/reallyworld\n  » Группа Вконтакте vk.com/reallyworlds\n  » Телеграм канал t.me/rwinfo\n\n  » Привязать аккаунт /link\n
+[22:58:16] [Download-1/INFO] (Minecraft) Returning cached file since actual hash matches requested
+[22:58:17] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client, server/00000000/34e507d0-e361-3b57-9aca-270cc606dc04
+[22:58:17] [Worker-Main-1/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[22:58:17] [Worker-Main-3/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[22:58:18] [Worker-Main-1/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[22:58:20] [Worker-Main-1/WARN] (Minecraft) Missing block model: minecraft:builtin/entity
+[22:58:20] [Worker-Main-2/WARN] (Minecraft) Texture reallyworld:item/sphere/air with size 31x31 limits mip level from 4 to 0
+[22:58:20] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[22:58:20] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_spear:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_spear
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_wings:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_wings
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_sword:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_sword
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/air:
+    particle
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/dirt:
+    particle
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/order:
+    particle
+[22:58:21] [Worker-Main-3/WARN] (Minecraft) Missing texture references in model reallyworld:item/god/archangel_spear:
+    particle
+[22:58:21] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[22:58:29] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on DF22N1 (Intel(R) Display Audio)
+[22:58:29] [Render thread/INFO] (Minecraft) Sound engine started
+[22:58:29] [Render thread/INFO] (Minecraft) Created: 4096x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:58:31] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:58:32] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22:58:32] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:58:32] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:58:32] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22:58:32] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[22:58:35] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[22:58:37] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[22:58:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §aon.
+[22:58:47] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §aon.
+[22:58:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §coff.
+[22:58:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §aon.
+[22:58:58] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 0fbe8b13-25ba-33d2-8300-c652c546a029 ([UPDATE_DISPLAY_NAME])
+[22:59:17] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §coff.
+[22:59:25] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b47ac953-8d12-3d20-84e8-c5db8e0b6b4f ([UPDATE_DISPLAY_NAME])
+[22:59:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 43793a8d-3e34-3c7b-bd22-2fd4f72df77e ([UPDATE_DISPLAY_NAME])
+[22:59:34] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b12bd468-d343-3195-a417-56634339ee03 ([UPDATE_DISPLAY_NAME])
+[22:59:40] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6108b496-a7c3-30b8-bc3d-9820556e6492 ([UPDATE_DISPLAY_NAME])
+[22:59:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §aon.
+[22:59:44] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §aon.
+[22:59:44] [Render thread/INFO] (Minecraft) [System] [CHAT] [Meteor] Toggled NoClip §coff.
+[22:59:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Unable to connect to newgrief-2: К сожалению сервер переполнен.\nЗайти на сервер можно от доната §LIMPERATOR
+[22:59:51] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:52] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:52] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:52] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:52] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:53] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:53] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:53] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:53] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:54] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:54] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:54] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:54] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Minecraft) [System] [CHAT] ReallyWorld » Подождите несколько секунд перед повторым подключением!
+[22:59:55] [Render thread/INFO] (Meteor Client) Saving
+[22:59:55] [Render thread/INFO] (Meteor Client) Saved in 128 milliseconds.
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e87899c9-507d-3d93-9bc7-9edfc7732123 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 13412558-a96f-3362-9847-b81125af8b6d ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 5ad25580-3d2f-3447-a33b-d516804a245f ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player c79d62d0-fed5-3976-9c6d-9476278374b5 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 1fda0db9-ce3f-3b95-b434-4246232dc192 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b0879421-3e1c-3c9a-8fbe-d85f47ee22a9 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e61893bf-3ef6-3bd6-82b7-c6bcff918f1b ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player dd222b38-4a7f-3234-a19b-d640ff1ac657 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 83d9278e-d4af-3deb-b7a8-8560a0a79274 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 63e745ad-e369-3f1d-9b56-ad4646c92eee ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player dd02a4d3-8221-34c7-b162-8e715afc1ad1 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player f070bd2c-7a56-3dfb-bfa5-50f9ead6b9f1 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 38ab8587-3cc6-3391-a0cf-7f3fff931d92 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 1881ae50-a1c4-38ef-b2af-2632b4ebee41 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 7f4835c0-dcdb-3013-9a6f-fa7602458f51 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 27f7fbef-d38c-3af6-8a37-e9848de8da76 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 61f3c924-b47d-3123-8af2-c5bde098168a ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player cd3dbd44-4543-3b5c-9ce7-4ecf0efcbde7 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6ab6aa1e-22b7-3a58-b0e7-1c0d13817175 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6d4c7c97-80de-3b5e-9d44-36c6f409c20a ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player ac58a6c5-eb85-3314-a103-ab2e20531baf ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 4cd0168c-6832-3cdb-857d-7cc5e290b53f ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b9931b73-d1d8-3af2-8a3e-cc59b6833bcc ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player d626fa3c-8b24-3db7-b218-98b4376334e0 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 389d8a05-ad22-3ca7-84fd-d5115ca75430 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player bf802ed5-907b-3ef1-952d-a75a300d43cd ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player d8f5382d-0587-39ae-9927-b8b9d39e0358 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 8f4ac36e-6847-3eda-8ff8-a9bc2929af3d ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e3fe3456-efc7-3934-9286-26d320631007 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player ac7e3479-7572-3eba-9711-9ac909ce8c32 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 393855df-d35a-3a7f-a56b-2ab99a03f53f ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 4f180082-a39e-3eb0-8ff4-9ddf30b600c6 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player d59bad33-370a-34ae-9b58-862aee3e4270 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player ec46a446-0976-3c18-8d97-9f686936bb53 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 7bef5aab-d62b-3283-b9e9-15a2f9e2c073 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 54206a23-9b5f-3aa3-954e-65f6d1d3e1e2 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 8c860f31-53ba-3aae-892b-b7cc69022e31 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 24c6ae8a-7f4d-3e0a-8def-b6637f9f07a0 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 333f1f1a-44b8-3cd6-aa2c-c1dabb04d8c2 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player d6463887-3c55-3508-a98f-50c7f8f40b1d ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player e367c5ec-71a8-3313-aeb0-2dda0f3ac2df ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player acd44624-3d4b-3fbf-b0ae-cd3f4ad9eb73 ([UPDATE_DISPLAY_NAME])
+[22:59:56] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[22:59:57] [Download-13/WARN] (Minecraft) Existing file C:\utils\Java\Cheats\meowutils\run\downloads\dab879ea-b8ae-35ac-98a5-69c991b802a5\a00930e904975d83124ee9d617530b89a74bb8c0 not found or had mismatched hash
+[22:59:57] [Render thread/INFO] (Minecraft) [System] [CHAT] ▣ [NiShPvP] [ПОВЕЛИТЕЛЬ] asver12 » ты кто?
+[23:00:01] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client, server/00000001/dab879ea-b8ae-35ac-98a5-69c991b802a5
+[23:00:02] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[23:00:02] [Worker-Main-2/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[23:00:02] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing block model: minecraft:builtin/entity
+[23:00:04] [Worker-Main-2/WARN] (Minecraft) Texture reallyworld:item/sphere/air with size 31x31 limits mip level from 4 to 0
+[23:00:04] [Worker-Main-2/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_spear:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_spear
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_wings:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_wings
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing textures in model reallyworld:item/god/archangel_sword:
+    minecraft:textures/atlas/blocks.png:minecraft:archangel_set_texture/archangel_sword
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/air:
+    particle
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/dirt:
+    particle
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing texture references in model reallyworld:item/sphere/order:
+    particle
+[23:00:04] [Worker-Main-1/WARN] (Minecraft) Missing texture references in model reallyworld:item/god/archangel_spear:
+    particle
+[23:00:09] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on DF22N1 (Intel(R) Display Audio)
+[23:00:09] [Render thread/INFO] (Minecraft) Sound engine started
+[23:00:10] [Render thread/INFO] (Minecraft) Created: 4096x2048x0 minecraft:textures/atlas/blocks.png-atlas
+[23:00:11] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:00:11] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:00:11] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:00:11] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:00:13] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 594a147e-a247-3e54-b923-d6ae2232821b ([UPDATE_GAME_MODE])
+[23:00:13] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 594a147e-a247-3e54-b923-d6ae2232821b ([UPDATE_GAME_MODE])
+[23:00:13] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 594a147e-a247-3e54-b923-d6ae2232821b ([UPDATE_DISPLAY_NAME])
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:00:13] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[23:00:15] [Render thread/ERROR] (Minecraft) Failed to handle packet net.minecraft.network.packet.s2c.play.TeamS2CPacket@55722e, disconnecting
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-415'.
+	at knot/net.minecraft.scoreboard.Scoreboard.removeScoreHolderFromTeam(Scoreboard.java:307) ~[minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2235) ~[minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:133) ~[minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:19) ~[minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:27) ~[minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:164) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:138) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:123) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1318) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.run(MinecraftClient.java:947) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:265) [minecraft-merged-3848b19350-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[23:00:16] [Render thread/INFO] (Meteor Client) Saving
+[23:00:16] [Render thread/INFO] (Meteor Client) Saved in 81 milliseconds.
+[23:00:17] [Render thread/WARN] (Minecraft) Client disconnected with reason: Network Protocol Error
+[23:00:17] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-resource-loader-v0, fabricloader, meteor-client
+[23:00:17] [Worker-Main-3/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[23:00:17] [Worker-Main-1/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[23:00:18] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[23:00:23] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on DF22N1 (Intel(R) Display Audio)
+[23:00:23] [Render thread/INFO] (Minecraft) Sound engine started
+[23:00:23] [Render thread/INFO] (Minecraft) Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[23:00:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:00:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:00:30] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:00:30] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas

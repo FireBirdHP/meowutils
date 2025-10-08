@@ -1,0 +1,116 @@
+---- Minecraft Network Protocol Error Report ----
+// I heard pigeons are more reliable
+
+Time: 2025-10-07 23:00:16
+Description: Packet handling error
+
+java.lang.IllegalStateException: Player is either on another team or not on any team. Cannot remove from team 'collideRule_-415'.
+	at knot//net.minecraft.scoreboard.Scoreboard.removeScoreHolderFromTeam(Scoreboard.java:307)
+	at knot//net.minecraft.client.network.ClientPlayNetworkHandler.onTeam(ClientPlayNetworkHandler.java:2235)
+	at knot//net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:133)
+	at knot//net.minecraft.network.packet.s2c.play.TeamS2CPacket.apply(TeamS2CPacket.java:19)
+	at knot//net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:27)
+	at knot//net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:164)
+	at knot//net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+	at knot//net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:138)
+	at knot//net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:123)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1318)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:947)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//net.minecraft.scoreboard.Scoreboard.removeScoreHolderFromTeam(Scoreboard.java:307)
+
+-- Incoming Packet --
+Details:
+	Type: clientbound/minecraft:set_player_team
+	Is Terminal: false
+	Is Skippable: false
+Stacktrace:
+	at knot//net.minecraft.network.NetworkThreadUtils.fillCrashReport(NetworkThreadUtils.java:56)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.savePacketErrorReport(ClientCommonNetworkHandler.java:142)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.onPacketException(ClientCommonNetworkHandler.java:121)
+	at knot//net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:32)
+	at knot//net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:164)
+	at knot//net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+	at knot//net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:138)
+	at knot//net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:123)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1318)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:947)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Is Local: false
+	Server type: OTHER
+	Server brand: ReallyWorld (Velocity)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.6, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 216632208 bytes (206 MiB) / 601882624 bytes (574 MiB) up to 1044381696 bytes (996 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Pentium(R) CPU 4405U @ 2.10GHz
+	Identifier: Intel64 Family 6 Model 78 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 2.11
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics 510
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.2111
+	Graphics card #1 name: NVIDIA GeForce MX110
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 2048.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.8088
+	Memory slot #0 capacity (MiB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 11979.13
+	Virtual memory used (MiB): 8238.80
+	Swap memory total (MiB): 8000.00
+	Swap memory used (MiB): 3371.79
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 189110.02, total: 457343.28
+	Space in storage for workdir (MiB): available: 189110.02, total: 457343.28
+	JVM Flags: 0 total; 
+
+-- Meteor Client --
+
+Version: 1.21.8
+Build: 16
+
+[[ Active Modules ]]
+
+[Movement]:
+sprint
+
+[Misc]:
+discord-presence
