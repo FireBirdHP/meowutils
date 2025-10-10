@@ -14,7 +14,7 @@ public class Utils extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("MeowUtils starting | UwU");
+        LOG.info("MeowUtils starting | Made by pls_meow");
 
         // Modules
         Modules.get().add(new TPLoot());
@@ -38,6 +38,6 @@ public class Utils extends MeteorAddon {
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("MeteorDevelopment", "meteor-addon-template");
+        return new GithubRepo("FireBirdHP", "meowutils");
     }
 }

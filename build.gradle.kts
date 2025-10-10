@@ -1,5 +1,6 @@
 plugins {
     id("fabric-loom") version "1.11-SNAPSHOT"
+    kotlin("jvm")
 }
 
 base {
@@ -7,6 +8,7 @@ base {
     version = properties["mod_version"] as String
     group = properties["maven_group"] as String
 }
+
 
 repositories {
     maven {
@@ -17,7 +19,9 @@ repositories {
         name = "meteor-maven-snapshots"
         url = uri("https://maven.meteordev.org/snapshots")
     }
+    mavenCentral()
 }
+
 
 dependencies {
     // Fabric
@@ -27,6 +31,10 @@ dependencies {
 
     // Meteor
     modImplementation("meteordevelopment:meteor-client:${properties["minecraft_version"] as String}-SNAPSHOT")
+    implementation(kotlin("stdlib-jdk8"))
+
+    // Baritone (https://github.com/MeteorDevelopment/baritone)
+    modCompileOnly("meteordevelopment:baritone:${properties["baritone_version"] as String}-SNAPSHOT")
 }
 
 tasks {
@@ -54,8 +62,6 @@ tasks {
     }
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
     }
 
     withType<JavaCompile> {
@@ -64,4 +70,7 @@ tasks {
         options.compilerArgs.add("-Xlint:deprecation")
         options.compilerArgs.add("-Xlint:unchecked")
     }
+}
+kotlin {
+    jvmToolchain(21)
 }
